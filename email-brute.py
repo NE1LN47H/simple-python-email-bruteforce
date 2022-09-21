@@ -1,6 +1,4 @@
-0
-
-This worked for me:
+#simple python email bruteforce
 
 import itertools 
 import smtplib
