@@ -1,0 +1,4290 @@
+{
+	"backdoors": [
+		{
+			"path": "/wp-content/plugins/index.php",
+			"expected_string": "<title>L I E R SHELL</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/inputs.php",
+			"expected_string": "<span>Upload file:</span>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/jaida/lang.php",
+			"expected_string": "Yanz Webshell!",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/travel/issue.php",
+			"expected_string": "Yanz Webshell!",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/wp-help/mini.php",
+			"expected_string": "j3mb03dz m4w0tz sh311",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/root-file-manager/wp-file.php",
+			"expected_string": "AlkantarClanX12",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/ph-file-manager/wp-file.php",
+			"expected_string": "AlkantarClanX12",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/fix/up.php",
+			"expected_string": "Upload Image",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/shell/about.php",
+			"expected_string": "title>V4Mp</title",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/WordPressCore/",
+			"expected_string": "vu<title>Webshell</title>lncode",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/index.php",
+			"expected_string": "<button type=\"button\" onclick=\"submitForm()\">Go</button>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/index.php",
+			"expected_string": "<center><br>Spamworldpro Mini</center>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/dummyyummy/wp-signup.php",
+			"expected_string": "<title>Simple Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/pwnd/pwnd.php",
+			"expected_string": "<input name=\"_upl\" type=\"submit\" id=\"_upl\" value=\"Upload\">",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Requests/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/blogs.dir/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/blocks/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/gallery/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/pki-validation/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/rest-api/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/style-engine/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/ID3/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/block-patterns/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/pomo/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/updraft/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/upgrade-temp-backup/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/banners/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/IXR/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/js/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/languages/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/customize/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/widgets/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/img/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Text/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes.bak/html-api/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Requests/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/blogs.dir/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/blocks/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/gallery/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/pki-validation/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/rest-api/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/style-engine/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/ID3/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/block-patterns/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/pomo/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/updraft/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/upgrade-temp-backup/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/banners/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/IXR/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/js/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/languages/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/customize/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/widgets/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/img/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Text/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes.bak/html-api/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Requests/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/blogs.dir/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/blocks/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/gallery/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/pki-validation/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/rest-api/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/style-engine/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/ID3/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/block-patterns/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/pomo/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/updraft/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/upgrade-temp-backup/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/banners/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/IXR/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/js/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/languages/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/customize/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/widgets/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/img/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Text/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes.bak/html-api/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/seotheme/db.php?u",
+			"expected_string": "#0x2525",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/pridmag/db.php?u",
+			"expected_string": "#0x2525",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/linkpreview/db.php?u",
+			"expected_string": "#0x2525",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/gaukingo/db.php?u",
+			"expected_string": "#0x2525",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/seoplugins/db.php?u",
+			"expected_string": "#0x2525",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/js/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/pomo/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/js/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/rest-api/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Requests/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/fonts/themes.php",
+			"expected_string": "SEA-GHOST MINSHELL",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/avaa.php",
+			"expected_string": "[ Avaa Bypassed ]",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xmrlpc.php?p",
+			"expected_string": "Tiny File Manager",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/wp-login.php",
+			"expected_string": "<span>Upload file:</span>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/ID3/about.php",
+			"expected_string": "<span>Upload file:</span>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shell20211028.php",
+			"expected_string": "<span>Upload file:</span>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/Cache/Cache.php",
+			"expected_string": "<span>Upload file:</span>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/wp-login.php",
+			"expected_string": "<span>Upload file:</span>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/languages/wp-login.php",
+			"expected_string": "<span>Upload file:</span>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cong.php",
+			"expected_string": "<small>Copyright  2021 - Haxor Clan</small>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-login.php",
+			"expected_string": "<span>Upload file:</span>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/about.php",
+			"expected_string": "<title>#shwty</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wso-x569.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/js/500.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/about.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/chosen.php",
+			"expected_string": "<title>000</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/dropdown.php",
+			"expected_string": "<div class='text-light my-1'> ULTRA</div>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-head.php",
+			"expected_string": "BlackDragon",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/radio.php",
+			"expected_string": "BlackDragon",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/simple.php",
+			"expected_string": "BlackDragon",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cong.php",
+			"expected_string": "BlackDragon",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/repeater.php",
+			"expected_string": "BlackDragon",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/acme-challenge/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/pki-validation/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/blue/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/languages/themes/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/atomlib.php",
+			"expected_string": "//0x5a455553.github.io/MARIJUANA/icon.png",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/class.api.php",
+			"expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>\">",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/wp-help/admin/wp-fclass.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/wp-help/index.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/travel/issue.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/updraft/themes.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/intense/block-css.php?mode=upload",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/hideo/network.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/sitemaps/providers/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/IXR/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/acme-challenge/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/php-compat/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/ID3/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/pki-validation/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/customize/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/network/mariju.php",
+			"expected_string": "<title>MARIJUANA</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shellname.php",
+			"expected_string": "<title>||TINY SHELL ||</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/users.php",
+			"expected_string": "<title>||TINY SHELL ||</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/ectoplasm/users.php",
+			"expected_string": "<title>||TINY SHELL ||</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/js/widgets/users.php",
+			"expected_string": "<title>||TINY SHELL ||</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/users.php",
+			"expected_string": "<title>||TINY SHELL ||</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/user/users.php",
+			"expected_string": "<title>||TINY SHELL ||</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/users.php",
+			"expected_string": "<title>||TINY SHELL ||</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/users.php",
+			"expected_string": "<title>||TINY SHELL ||</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shellname.php",
+			"expected_string": "vulncode",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/certificates/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/user/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/acme-challenge/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/customize/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/blue/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/ID3/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/network/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/upgrade/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/css/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/fonts/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/pomo/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.tmb/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/IXR/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/pki-validation/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/random_compat/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/languages/plugins.php",
+			"expected_string": "Uname:",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shellname.php",
+			"expected_string": "vulncode",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/class_api.php",
+			"expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/class.api.php",
+			"expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/js/widgets/class.api.php",
+			"expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/pki-validation/class_api.php",
+			"expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/class_api.php",
+			"expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/class.api.php",
+			"expected_string": "%PDF-0-1<form action=\"\" method=\"post\"><input type=\"text\" name=\"_rg\"><input type=\"submit\" value=\">>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shellname.php",
+			"expected_string": "vulncode",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/my1.php",
+			"expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Requests/Cookie/my1.php",
+			"expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/my1.php",
+			"expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/my1.php",
+			"expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/acme-challenge/my1.php",
+			"expected_string": "method= \"post\" action= \"\"> <input type=\"input\" name =\"f_p\" value= \"\"/><input type= \"submit\" value= \">&gt;\" ]",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shellname.php",
+			"expected_string": "vulncode",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/images/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.tmb/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/acme-challenge/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/user/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/upgrade/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/js/widgets/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/ID3/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/certificates/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/IXR/moon.php",
+			"expected_string": "<title>Gel4y Mini Shell</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi-bin/filechucker.cgi",
+			"expected_string": "<title>Upload a file</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/upload.php",
+			"expected_string": "<title>Upload a file</title>",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/themes/seotheme/db.php?u",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/chtmlfuns.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/classfuns.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/onclickfuns.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/hinfofuns.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/userfuns.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/plugins.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/plugins.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/file.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},		
+		{
+			"path": "/wp-content/themes/travel/issue.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shellname.php",
+			"expected_string": "vulncode",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/install.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/dropdown.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},		
+		{
+			"path": "/.well-known/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/acme-challenge/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ALFA_DATA/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ALFA_DATA/alfacgiapi/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/css/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/blue/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/network/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/ALFA_DATA/alfacgiapi/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/patior/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/wp-help/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/uploads/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/uploads/2023/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/Requests/Text/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/SimplePie/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/rest-api/fields/cache/",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},		
+		{
+			"path": "/simple.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},		
+		{
+			"path": "/simple.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/install.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/dropdown.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/chosen.php?p=",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/mah.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/install.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/js/about.php7",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/install.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/text.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/root.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/SHELL.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/txt.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/plugin.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/admin.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shell4.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ups.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ru.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/if.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/vuln.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/skipper.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/skippershell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/tttt.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/tshop.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/inje3ctor.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/saudi.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alfashell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/my_alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/uploader.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/up.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/hacked.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/c99.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/priv8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Navir.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cmd13.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/inc20k1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/1index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/404.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/swm.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/mini.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/php.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/gif.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/simple.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/root.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/toor.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/bot.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/doc.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ws.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/m.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/edit-form.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/LEAF.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/leafmailer2.8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/php_sender.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/phpsender.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/smtp.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/leaf_php.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/leaf_mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/srx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/1337.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/XxX.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/lf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alex.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/new.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/marijuana.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/gaza.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/3index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wikindex.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wso1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/bb.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Lux.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/haxor.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/wp-diambar/includes/loadme.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/zaen/includes/loadme.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/zedd/1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/cakil/up.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/wp.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/ubh/con.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/cache-wordpress/payment.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/cekidot/mr.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/black.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/wp-freeform/black2llleaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wpvitamins.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/blog/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wordpress/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/f0x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/f0x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/f0x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/f0x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-blog.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-class.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/module.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Init.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/wp-class.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/kil.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ovshell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alfanibos.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ms.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/message.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-mails.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wikiindex.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-0.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xindex.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wiki-index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Bulle.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/owfsmac/mar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/tersembunyi.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/lab.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/plugins.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/1.aspx",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shell.aspx",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/a.aspx",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-raze.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-init.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/lyda.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/av.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/goods.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/login.phtml",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/fox.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/darkshell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/gel4y.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/contacts.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xmlrpc.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/yo.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/fm.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/sym.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/mini.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/mar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/wp-init.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/upload.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/up.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/fox.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/alfashell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/byps.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/bypass.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/c99.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/wso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/sym403.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/leafmailer2.8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/priv8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/lux.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/wp.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xxx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/w3llstore.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alfi.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/DC.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/uploads/simple-file-list/DC.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/uploads/simple-file-list/shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/uploads/simple-file-list/fox.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/uploads/simple-file-list/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/uploads/simple-file-list/alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Ninja.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-incleude.php/fpebr.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/snd21.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/olu.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/tuco.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/radio.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ice.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/codeboy1877x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wsanon.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/minishell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/404.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/alfa.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/wso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/alfBLso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/haxor.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/up.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/mini.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/upload.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/marijuana.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/shells.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/sh3ll.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/c99.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/black.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/alfashell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/leafmailer2.8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/symlink.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/sym403.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/tesla.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/tesla1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/image.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/xxx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/xxxx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/langar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/out.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/ups.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/Bulle.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/mini.local.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/fox.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/AlfBLso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Alfashell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alf4.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/old-index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/pop.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-thesex.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/wso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/wso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/fox1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/yhr.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/wso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/mailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ym.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/1945.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/yyyy.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alfa1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/159.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/2.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/3.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/4.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/5.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/6.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/tesla1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/7.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/9.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/10.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shadowx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xz.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/hexor.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/01.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/FoxWSOv1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/foxwsov1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/FoxWSOv2.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/foxwsov2.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shellx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/upload.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/2index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/4index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/5index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/6index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/7index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/8index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/9index.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index2.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index3.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index4.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index5.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index6.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index7.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/index9.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/indexx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/indeex.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/jindex.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-xxx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/coffee/upl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/404.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/404.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/404.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/404.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/tgh.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/404.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/leaf.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/leafmailer2.8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/.well-known/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/about.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/404.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/leafmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wpx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/load.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/images/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/am.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/sym403.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/shadowx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/shadowx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/shadowx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/css/shadowx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/shadowx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/shadowx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/shadowx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/symlink.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/bypass403.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/foxwso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/sh3ll.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shells.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/leafmailer2.8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/leafmailer2.8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/leafmailer2.8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alfav4.1-tesla.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xleetmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/madmailer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp_backup.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/rBL.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/evil.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/twins.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/45.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alf42.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-info.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-one.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wordpress",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/32.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-pluging.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/lux.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/mas.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-defaul.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/0byte.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/73.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/up.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/c99.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/mini.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/fox.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/45.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/wso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/up.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/c99.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/mini.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/fox.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/45.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/wso.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/x.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/up.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/c99.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/mini.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/fox.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/45.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/gelay.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/b374k.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/r57.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/wp.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/upload.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/matamu.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/529.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/aci.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/AK-74.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shv3n0m.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/MyShell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/PHP_Shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/l28.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Uploader.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/888.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/poster.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/fw.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/langar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/langar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/langar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/langar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/alfa3.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ubh.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/teslaxx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/gray.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/87.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/upx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/c0derz_shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cmd.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cybershell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/fatal.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/robots.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/php-backdoor.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/IndoXploit.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Simple_PHP_backdoor.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/simple-upload.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/simple_backdoor.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/r57shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/z.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/pomo/so.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/IXR/bnet.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/z.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/z.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/z.php/78.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/mar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/media-site.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/uploads/small.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-includes/sys.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/class-wp-media-list-data.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/sys.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/wp-cron.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/includes/edit-tag-menu.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/maint/wp-readindex.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/ectoplasm/uwer.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/bhx1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/up.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-admin/css/colors/maro.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/mar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cpanel.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/kanghoax.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/langar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/401.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ye.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/b.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/kk.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/webadmin.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/webshell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/simattacker.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/sh.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/shankar.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/sincap.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wso-latest.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wso2.7.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wso2.8.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/w.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/w3d.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/w4k.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wacking.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wordpress.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xinfo.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/zacosmall.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/russian.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/simple_php_backdoor_by_dk.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/simple-shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/bitwise.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/c999shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/p0wny-shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ex0shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/exp.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/pHpINJ.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/robot.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/simple_cmd.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/sure.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/sys32.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Uploading.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/byps.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/aryabot/mari.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/aryabot/upx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/aryabot/wBLe.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/wp-content/plugins/aryabot/byps.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/fx.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/who.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ah.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/m4r1ju4n4.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/a.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/kuda.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/daes.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/4pride.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/kii.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/dxshell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/mailer3.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/main.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xmrlpc.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/404webshell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/mailer1.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/nshell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/predator.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/zaco.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/small.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/ak47shell.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/b374k.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/r57.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cgi.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/olux.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/xleet.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/owl.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/yuuki.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/stfu.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/spBLn.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/puki.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/killbot.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/well.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/Chitoge.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/cp.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/or.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			},
+		{
+			"path": "/405.php",
+			"expected_string": "%BL%",
+			"vuln_name": "@BL4CK_W0LF"
+			}	
+	]
+}
+
